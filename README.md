@@ -1,5 +1,5 @@
 # ANETools
-CLI Tools For ANE
+CLI Tools For ANE , Created by Wish Wu(吴潍浠)
 
 ##coremlc.sh 
 use xcode coremlc tool to pre-compile .coreml file to coremlc folder.
