@@ -10,5 +10,5 @@ convert nueral network files under coremlc folder to net.plist(....) files for A
 ## ANECompiler
 compile net.plist and weights files to .hwx file.
 
-## ANEDisassemble
+## ANEDisassembler
 disassemble .hwx file, print all registers , values and bits.
