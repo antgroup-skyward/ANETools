@@ -1,6 +1,6 @@
-CC:=clang++
+CC:=g++
 CFLAGS:= -g -Wall -O3 -fsanitize=address
-LDFLAGS:= -g -Wall -fsanitize=address -F /System/Library/PrivateFrameworks/ -framework Espresso
+LDFLAGS:= -g -fsanitize=address -F /System/Library/PrivateFrameworks/ -framework Espresso
 OBJS:=MLModelCToANECompiler.o
 TARGET:=MLModelCToANECompiler
 

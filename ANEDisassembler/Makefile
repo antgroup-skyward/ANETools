@@ -2,7 +2,7 @@ CC:=clang
 CXX:=clang++
 CFLAGS:= -g -Wall -O3 -fsanitize=address
 LDFLAGS:= -g -Wall -fsanitize=address -F /System/Library/PrivateFrameworks/ -framework ANECompiler
-OBJS:=ANEDisassembler.o util.o wmacho.o
+OBJS:=ANEDisassembler.o util.o wmacho.o ANETD.o
 TARGET:=ANEDisassembler
 
 $(TARGET):$(OBJS)

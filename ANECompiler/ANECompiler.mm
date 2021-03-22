@@ -189,7 +189,7 @@ static int parseArgs(int argc, char **argv, CFDictionaryRef *pios, CFDictionaryR
             CFDictionaryAddValue(opts, CFSTR("CompileANEProgramForDebugging"), kCFBooleanTrue);
             CFDictionaryAddValue(opts, CFSTR("DisableRegisterPacking"), kCFBooleanTrue);
         } else if (strcmp(arg, "-arch") == 0) {
-            if (CFDictionaryContainsKey(ios, CFSTR("TargetArchitecture"))) {
+            if (CFDictionaryContainsKey(opts, CFSTR("TargetArchitecture"))) {
                 printf("bad arg : -arch already set\n");
                 return -1;
             }
