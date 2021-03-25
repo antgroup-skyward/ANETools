@@ -5,7 +5,7 @@ CLI Tools For ANE(Apple Neural Engine) , Created by Wish Wu( @wish_wu 吴潍浠)
 use xcode coremlc tool to compile .mlmodel file to mlmodelc folder.
 
 ## MLModelCToANECompiler
-convert nueral network files under coremlc folder to net.plist(....) files for ANECompiler.
+convert neural network files under mlmodelc folder to net.plist(....) files for ANECompiler.
 
 ## ANECompiler
 compile net.plist and weights files to .hwx file.
